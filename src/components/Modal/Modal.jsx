@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 
 const modalRoot = document.querySelector('#modal-root');
 class Modal extends Component {
-  state = {};
   componentDidMount() {
     window.addEventListener('keydown', this.handleKeyDown);
   }
