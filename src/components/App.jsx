@@ -53,7 +53,6 @@ class App extends Component {
       Notiflix.Notify.info(
         `Your request "${name}" has already been completed! :-)`
       );
-      console.log('yess');
       return;
     }
     this.setState({ images: [], q: name, page: 1 });
